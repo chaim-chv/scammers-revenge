@@ -1,0 +1,11 @@
+[package]
+name = "freshes-pro-scam-revenge"
+version = "0.0.1"
+edition = "2021"
+
+[dependencies]
+reqwest = "0.12.7"
+tokio = { version = "1", features = ["full"] }
+serde_json = "1.0"
+rand = "0.8"
+regex = "1.10.6"
